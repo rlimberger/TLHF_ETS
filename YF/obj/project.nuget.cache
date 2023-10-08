@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "wyOUmhIuzc83AjylGg2Zw/0sJQ7S8FW1rIMseDSiHY9lKENAIcXyYxlAv9+duamQ5HPuy14p/wOLOGpeshuONQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\renel\\Downloads\\ETSdebugDll\\ETSdebugDll\\YF\\YF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\renel\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\renel\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\renel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\renel\\.nuget\\packages\\microsoft.extensions.http\\7.0.0\\microsoft.extensions.http.7.0.0.nupkg.sha512",
+    "C:\\Users\\renel\\.nuget\\packages\\microsoft.extensions.http.polly\\7.0.5\\microsoft.extensions.http.polly.7.0.5.nupkg.sha512",
+    "C:\\Users\\renel\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\renel\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\renel\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\renel\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\renel\\.nuget\\packages\\nodatime\\3.1.9\\nodatime.3.1.9.nupkg.sha512",
+    "C:\\Users\\renel\\.nuget\\packages\\polly\\7.2.3\\polly.7.2.3.nupkg.sha512",
+    "C:\\Users\\renel\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
+    "C:\\Users\\renel\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "C:\\Users\\renel\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\renel\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512",
+    "C:\\Users\\renel\\.nuget\\packages\\yahooquotesapi\\5.3.7\\yahooquotesapi.5.3.7.nupkg.sha512"
+  ],
+  "logs": []
+}

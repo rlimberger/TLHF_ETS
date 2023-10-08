@@ -1,0 +1,24 @@
+C:\Программирование\Установочник Net6\DebugScriptDll\Debug\net6.0-windows\ETSdebugDll.deps.json
+C:\Программирование\Установочник Net6\DebugScriptDll\Debug\net6.0-windows\ETSdebugDll.dll
+C:\Программирование\Установочник Net6\DebugScriptDll\Debug\net6.0-windows\ETSdebugDll.pdb
+D:\Юра\Программирование\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows\ETSdebugDll.csproj.AssemblyReference.cache
+D:\Юра\Программирование\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows\ETSdebugDll.GeneratedMSBuildEditorConfig.editorconfig
+D:\Юра\Программирование\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows\ETSdebugDll.AssemblyInfoInputs.cache
+D:\Юра\Программирование\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows\ETSdebugDll.AssemblyInfo.cs
+D:\Юра\Программирование\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows\ETSdebugDll.csproj.CoreCompileInputs.cache
+D:\Юра\Программирование\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows\ETSdebugDll.csproj.CopyComplete
+D:\Юра\Программирование\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows\ETSdebugDll.dll
+D:\Юра\Программирование\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows\refint\ETSdebugDll.dll
+D:\Юра\Программирование\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows\ETSdebugDll.pdb
+D:\Юра\Программирование\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows\ref\ETSdebugDll.dll
+C:\Программирование\Установочник Net6\User Script Dll Debug\Debug\net6.0-windows\ETSdebugDll.deps.json
+C:\Программирование\Установочник Net6\User Script Dll Debug\Debug\net6.0-windows\ETSdebugDll.dll
+C:\Программирование\Установочник Net6\User Script Dll Debug\Debug\net6.0-windows\ETSdebugDll.pdb
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows\ETSdebugDll.csproj.AssemblyReference.cache
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows\ETSdebugDll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows\ETSdebugDll.AssemblyInfoInputs.cache
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows\ETSdebugDll.AssemblyInfo.cs
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows\ETSdebugDll.csproj.CoreCompileInputs.cache
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows\ETSdebugDll.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows\refint\ETSdebugDll.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows\ETSdebugDll.pdb

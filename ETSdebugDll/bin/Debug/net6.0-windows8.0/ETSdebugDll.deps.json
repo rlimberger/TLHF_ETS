@@ -1,0 +1,222 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ETSdebugDll/1.0.0": {
+        "dependencies": {
+          "ScriptSolution": "1.0.0.0",
+          "SourceEts": "1.0.0.0"
+        },
+        "runtime": {
+          "ETSdebugDll.dll": {}
+        }
+      },
+      "ScriptSolution/1.0.0.0": {
+        "runtime": {
+          "ScriptSolution.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SourceEts/1.0.0.0": {
+        "runtime": {
+          "SourceEts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ETS.Resources/1.0.0.0": {
+        "runtime": {
+          "ETS.Resources.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "StyleAndControls/1.0.0.0": {
+        "runtime": {
+          "StyleAndControls.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Ex.UI.Kit/1.0.0.0": {
+        "runtime": {
+          "Ex.UI.Kit.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DevExpress.Xpf.Core.v22.1/22.1.4.0": {
+        "runtime": {
+          "DevExpress.Xpf.Core.v22.1.dll": {
+            "assemblyVersion": "22.1.4.0",
+            "fileVersion": "22.1.4.0"
+          }
+        }
+      },
+      "DevExpress.Xpf.Docking.v22.1/22.1.4.0": {
+        "runtime": {
+          "DevExpress.Xpf.Docking.v22.1.dll": {
+            "assemblyVersion": "22.1.4.0",
+            "fileVersion": "22.1.4.0"
+          }
+        }
+      },
+      "DevExpress.Xpf.Layout.v22.1.Core/22.1.4.0": {
+        "runtime": {
+          "DevExpress.Xpf.Layout.v22.1.Core.dll": {
+            "assemblyVersion": "22.1.4.0",
+            "fileVersion": "22.1.4.0"
+          }
+        }
+      },
+      "DevExpress.Data.v22.1/22.1.4.0": {
+        "runtime": {
+          "DevExpress.Data.v22.1.dll": {
+            "assemblyVersion": "22.1.4.0",
+            "fileVersion": "22.1.4.0"
+          }
+        }
+      },
+      "DevExpress.Mvvm.v22.1/22.1.4.0": {
+        "runtime": {
+          "DevExpress.Mvvm.v22.1.dll": {
+            "assemblyVersion": "22.1.4.0",
+            "fileVersion": "22.1.4.0"
+          }
+        }
+      },
+      "DevExpress.Data.Desktop.v22.1/22.1.4.0": {
+        "runtime": {
+          "DevExpress.Data.Desktop.v22.1.dll": {
+            "assemblyVersion": "22.1.4.0",
+            "fileVersion": "22.1.4.0"
+          }
+        }
+      },
+      "DevExpress.Printing.v22.1.Core/22.1.4.0": {
+        "runtime": {
+          "DevExpress.Printing.v22.1.Core.dll": {
+            "assemblyVersion": "22.1.4.0",
+            "fileVersion": "22.1.4.0"
+          }
+        }
+      },
+      "DevExpress.Drawing.v22.1/22.1.4.0": {
+        "runtime": {
+          "DevExpress.Drawing.v22.1.dll": {
+            "assemblyVersion": "22.1.4.0",
+            "fileVersion": "22.1.4.0"
+          }
+        }
+      },
+      "DevExpress.Pdf.v22.1.Core/22.1.4.0": {
+        "runtime": {
+          "DevExpress.Pdf.v22.1.Core.dll": {
+            "assemblyVersion": "22.1.4.0",
+            "fileVersion": "22.1.4.0"
+          }
+        }
+      },
+      "DevExpress.Pdf.v22.1.Drawing/22.1.4.0": {
+        "runtime": {
+          "DevExpress.Pdf.v22.1.Drawing.dll": {
+            "assemblyVersion": "22.1.4.0",
+            "fileVersion": "22.1.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ETSdebugDll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ScriptSolution/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SourceEts/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ETS.Resources/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StyleAndControls/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ex.UI.Kit/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevExpress.Xpf.Core.v22.1/22.1.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevExpress.Xpf.Docking.v22.1/22.1.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevExpress.Xpf.Layout.v22.1.Core/22.1.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevExpress.Data.v22.1/22.1.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevExpress.Mvvm.v22.1/22.1.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevExpress.Data.Desktop.v22.1/22.1.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevExpress.Printing.v22.1.Core/22.1.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevExpress.Drawing.v22.1/22.1.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevExpress.Pdf.v22.1.Core/22.1.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevExpress.Pdf.v22.1.Drawing/22.1.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

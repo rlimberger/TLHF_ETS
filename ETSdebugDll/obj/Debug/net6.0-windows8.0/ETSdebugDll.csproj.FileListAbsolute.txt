@@ -1,0 +1,31 @@
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows8.0\ETSdebugDll.csproj.AssemblyReference.cache
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows8.0\ETSdebugDll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows8.0\ETSdebugDll.AssemblyInfoInputs.cache
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows8.0\ETSdebugDll.AssemblyInfo.cs
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows8.0\ETSdebugDll.csproj.CoreCompileInputs.cache
+C:\Users\renel\Downloads\1EX algo\ETS\User Script Dll Debug\Debug\net6.0-windows8.0\ETSdebugDll.deps.json
+C:\Users\renel\Downloads\1EX algo\ETS\User Script Dll Debug\Debug\net6.0-windows8.0\ETSdebugDll.dll
+C:\Users\renel\Downloads\1EX algo\ETS\User Script Dll Debug\Debug\net6.0-windows8.0\ETSdebugDll.pdb
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows8.0\ETSdebugDll.csproj.CopyComplete
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows8.0\ETSdebugDll.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows8.0\refint\ETSdebugDll.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows8.0\ETSdebugDll.pdb
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\obj\Debug\net6.0-windows8.0\ref\ETSdebugDll.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\bin\Debug\net6.0-windows8.0\ETSdebugDll.deps.json
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\bin\Debug\net6.0-windows8.0\ETSdebugDll.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\bin\Debug\net6.0-windows8.0\ETSdebugDll.pdb
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\bin\Debug\net6.0-windows8.0\ScriptSolution.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\bin\Debug\net6.0-windows8.0\SourceEts.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\bin\Debug\net6.0-windows8.0\ETS.Resources.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\bin\Debug\net6.0-windows8.0\StyleAndControls.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\bin\Debug\net6.0-windows8.0\Ex.UI.Kit.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\bin\Debug\net6.0-windows8.0\DevExpress.Xpf.Core.v22.1.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\bin\Debug\net6.0-windows8.0\DevExpress.Xpf.Docking.v22.1.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\bin\Debug\net6.0-windows8.0\DevExpress.Xpf.Layout.v22.1.Core.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\bin\Debug\net6.0-windows8.0\DevExpress.Data.v22.1.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\bin\Debug\net6.0-windows8.0\DevExpress.Mvvm.v22.1.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\bin\Debug\net6.0-windows8.0\DevExpress.Data.Desktop.v22.1.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\bin\Debug\net6.0-windows8.0\DevExpress.Printing.v22.1.Core.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\bin\Debug\net6.0-windows8.0\DevExpress.Drawing.v22.1.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\bin\Debug\net6.0-windows8.0\DevExpress.Pdf.v22.1.Core.dll
+C:\Users\renel\Downloads\ETSdebugDll\ETSdebugDll\ETSdebugDll\bin\Debug\net6.0-windows8.0\DevExpress.Pdf.v22.1.Drawing.dll

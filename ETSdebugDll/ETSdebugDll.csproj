@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <BaseOutputPath></BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ScriptSolution">
+      <HintPath>C:\Users\renel\Downloads\1EX algo\ETS\ScriptSolution.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceEts">
+      <HintPath>C:\Users\renel\Downloads\1EX algo\ETS\SourceEts.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="BaseStrategy\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="BaseStrategy\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="BaseStrategy\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="BaseStrategy\**" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy /Y &quot;$(TargetDir)$(ProjectName).dll&quot; &quot;C:\Users\renel\Downloads\1EX algo\ETS\User Script Dll Debug\$(ProjectName).dll&quot;" />
+  </Target>
+
+</Project>
