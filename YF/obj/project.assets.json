@@ -768,19 +768,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\renel\\.nuget\\packages\\": {}
+    "C:\\Users\\rlimb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renel\\Downloads\\ETSdebugDll\\ETSdebugDll\\YF\\YF.csproj",
+      "projectUniqueName": "C:\\Users\\rlimb\\OneDrive\\Imports\\rene.limberger@gmail.com - Google Drive\\personal\\backup\\ETSdebugDll\\ETSdebugDll\\YF\\YF.csproj",
       "projectName": "YF",
-      "projectPath": "C:\\Users\\renel\\Downloads\\ETSdebugDll\\ETSdebugDll\\YF\\YF.csproj",
-      "packagesPath": "C:\\Users\\renel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renel\\Downloads\\ETSdebugDll\\ETSdebugDll\\YF\\obj\\",
+      "projectPath": "C:\\Users\\rlimb\\OneDrive\\Imports\\rene.limberger@gmail.com - Google Drive\\personal\\backup\\ETSdebugDll\\ETSdebugDll\\YF\\YF.csproj",
+      "packagesPath": "C:\\Users\\rlimb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rlimb\\OneDrive\\Imports\\rene.limberger@gmail.com - Google Drive\\personal\\backup\\ETSdebugDll\\ETSdebugDll\\YF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\renel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rlimb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

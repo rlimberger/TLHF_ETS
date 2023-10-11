@@ -33,11 +33,13 @@ class Program
 
     static async Task Main(string[] args)
     {
+        var symbol = "QQQ";
+        
         YahooQuotes yahooQuotes = new YahooQuotesBuilder()
             .WithHistoryStartDate(Instant.FromUtc(2020, 1, 1, 0, 0))
             .Build();
 
-        Security security = await yahooQuotes.GetAsync("NVDA", Histories.PriceHistory)
+        Security security = await yahooQuotes.GetAsync(symbol, Histories.PriceHistory)
                             ?? throw new ArgumentException("Unknown symbol.");
 
         PriceTick[] priceHistory = security.PriceHistory.Value;
@@ -48,7 +50,7 @@ class Program
         {
             ETSCandle candle = new ETSCandle
             {
-                Ticker = "NVDA",
+                Ticker = symbol,
                 Per = 1,
                 Date = day.Date.ToDateOnly().ToString("yyyyMMdd"),
                 Open = day.Open,
@@ -63,7 +65,7 @@ class Program
             Console.WriteLine(candle.ToString());
         }
 
-        var writer = new StreamWriter("C:\\Users\\renel\\OneDrive\\Desktop\\data\\NVDA.csv");
+        var writer = new StreamWriter($"C:\\Users\\renel\\OneDrive\\Desktop\\data\\{symbol}.csv");
         var csv = new CsvWriter(writer, CultureInfo.InvariantCulture);
         csv.WriteRecords(candles);
         writer.Flush();

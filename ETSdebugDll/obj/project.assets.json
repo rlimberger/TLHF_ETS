@@ -8,19 +8,19 @@
     "net6.0-windows8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\renel\\.nuget\\packages\\": {}
+    "C:\\Users\\rlimb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renel\\Downloads\\ETSdebugDll\\ETSdebugDll\\ETSdebugDll\\ETSdebugDll.csproj",
+      "projectUniqueName": "C:\\Users\\rlimb\\OneDrive\\Imports\\rene.limberger@gmail.com - Google Drive\\personal\\backup\\ETSdebugDll\\ETSdebugDll\\ETSdebugDll\\ETSdebugDll.csproj",
       "projectName": "ETSdebugDll",
-      "projectPath": "C:\\Users\\renel\\Downloads\\ETSdebugDll\\ETSdebugDll\\ETSdebugDll\\ETSdebugDll.csproj",
-      "packagesPath": "C:\\Users\\renel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renel\\Downloads\\ETSdebugDll\\ETSdebugDll\\ETSdebugDll\\obj\\",
+      "projectPath": "C:\\Users\\rlimb\\OneDrive\\Imports\\rene.limberger@gmail.com - Google Drive\\personal\\backup\\ETSdebugDll\\ETSdebugDll\\ETSdebugDll\\ETSdebugDll.csproj",
+      "packagesPath": "C:\\Users\\rlimb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rlimb\\OneDrive\\Imports\\rene.limberger@gmail.com - Google Drive\\personal\\backup\\ETSdebugDll\\ETSdebugDll\\ETSdebugDll\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\renel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rlimb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

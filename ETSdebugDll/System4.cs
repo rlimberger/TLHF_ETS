@@ -4,33 +4,47 @@
     JAMES ALTUCHER
     ISBN 0-471-48485-7
 
-    SYSTEM #2 - FILLING THE GAP AFTER DOWN DAY:
+    SYSTEM #4 - THE 5 PERCENT GAP WITH MARKET GAP:
     
-    The rules for System #2 are the same as for System #1 except only buy
-    when not only is there a 2 percent gap down or greater, but also when the
-    day before was a down day for the stock.
-    
-    The following is a test of the basic gap-fill approach:
-        • Buy a stock when it opens more than 2 percent lower than the prior
-        close.
-        • Sell at yesterday’s closing price or at the close if yesterday’s closing
-        price is never hit.
+    • Buy a stock if the stock was down the day before,
+      if the stock is opening 5 percent lower than the close the day before, 
+      and if QQQ is also gapping down at least one-half percent.
+    • Sell if the gap is filled or at the end of the day.
 
     Test: 
     All Nasdaq 100 stocks (including deletions), from January 1, 1999, to June 30, 2003.
 
     Results:
-        All Trades 4,938
-        Average Profit/Loss % 0.75%
+        Starting Capital $1,000,000.00
+        Ending Capital $2,593,543.00
+        Net Profit $1,593,543.00
+        Net Profit % 159.35%
+        Exposure % 5.22%
+        Risk-Adjusted Return 3053.37%
+        All Trades 525
+        Average Profit/Loss $3,035.32
+        Average Profit/Loss % 2.07%
         Average Bars Held 1
-        Winning Trades 3,157 (63.93%)
-        Average Profit % 3.40%
+        Winning Trades 321 (61.14%)
+        Gross Profit $2,875,406.00
+        Average Profit $8,957.65
+        Average Profit % 5.89%
         Average Bars Held 1
-        Maximum Consecutive Winning Trades 44
-        Losing Trades 1,781 (36.07%)
-        Average Loss % –4.04%
-        Average Bars Held 0.98
-        Maximum Consecutive Losing Trades 15
+        Maximum Consecutive Winning Trades 13
+        Losing Trades 204 (38.86%)
+        Gross Loss ($1,281,862.38)
+        Average Loss ($6,283.64)
+        Average Loss % –4.07%
+        Average Bars Held 0.97
+        Maximum Consecutive Losing Trades 14
+        Maximum Drawdown –8.26%
+        Maximum Drawdown $ ($168,763.75)
+        Maximum Drawdown Date 9/6/2001
+        Recovery Factor 9.44
+        Profit Factor 2.24
+        Payoff Ratio 1.44
+        Risk Reward Ratio 3.37
+        Sharpe Ratio of Trades 6.59
 */
 
 using ScriptSolution;
@@ -40,9 +54,10 @@ using ScriptSolution.Model.Interfaces;
 
 namespace ETSdebugDll
 {
-    public class System2: Script
+    public class System4: Script
     {
-        public ParamOptimization GapPercent = new ParamOptimization(2, 1, 10, 1, "Gap Percent", "The size of the Gap in percent of the stock price.");
+        public ParamOptimization Market = new ParamOptimization(EnumTypeGetIEnumerable.GetSeccodeList, "Market", "The market to check for down day.");
+        public ParamOptimization GapPercent = new ParamOptimization(5, 1, 10, 1, "Gap Percent", "The size of the Gap in percent of the stock price.");
         
         #pragma warning disable CS8618
         private IPosition _longPos;
@@ -50,6 +65,9 @@ namespace ETSdebugDll
         
         public override void Execute()
         {
+            // warm up
+            if (IndexBar == 0) return;
+            
             if (LongPos.Count == 0) 
                 EntryOrders();
             else 
@@ -59,13 +77,16 @@ namespace ETSdebugDll
         private void EntryOrders()
         {
             // nothing to do if this (just closed) bar is not a down bar
-            if (Candles.CloseSeries[IndexBar] < Candles.OpenSeries[IndexBar]) return;
+            if (Candles.CloseSeries[IndexBar-1] < Candles.OpenSeries[IndexBar-1]) return;
+            
+            // nothing to do if this (just closed) Market bar is not a down bar
+            if (Market.FinInfo.Candles.CloseSeries[IndexBar-1] < Market.FinInfo.Candles.OpenSeries[IndexBar-1]) return;
             
             // calculate gap according to user parameter
-            var gap = Candles.OpenSeries[IndexBar] * (GapPercent.Value / 100.0);
+            var gap = Candles.CloseSeries[IndexBar] * (GapPercent.Value / 100.0);
 
             // calculate entry price and bar
-            var entryPrice = Candles.CloseSeries[IndexBar] - gap;
+            var entryPrice = Candles.CloseSeries[IndexBar-1] - gap;
             var entryBar = IndexBar + 1;
             var entrySignalName = "Gap Down Long Entry";
             
@@ -95,9 +116,9 @@ namespace ETSdebugDll
             DesParamStratetgy.DateRelease = DateTime.Now;
             DesParamStratetgy.DateChange = DateTime.Now;
             DesParamStratetgy.Author = "Rene Limberger";
-            DesParamStratetgy.Description = "Gap Fill Strategy form `Trading like a Hedge Fund` - System #2";
+            DesParamStratetgy.Description = "Gap Fill Strategy form `Trading like a Hedge Fund` - System #4";
             DesParamStratetgy.Change = "";
-            DesParamStratetgy.NameStrategy = "TLHF System2";
+            DesParamStratetgy.NameStrategy = "TLHF System4";
         } 
     }
 }

@@ -4,33 +4,28 @@
     JAMES ALTUCHER
     ISBN 0-471-48485-7
 
-    SYSTEM #2 - FILLING THE GAP AFTER DOWN DAY:
+    SYSTEM #3 - THE 5 PERCENT GAP:
     
-    The rules for System #2 are the same as for System #1 except only buy
-    when not only is there a 2 percent gap down or greater, but also when the
-    day before was a down day for the stock.
-    
-    The following is a test of the basic gap-fill approach:
-        • Buy a stock when it opens more than 2 percent lower than the prior
-        close.
-        • Sell at yesterday’s closing price or at the close if yesterday’s closing
-        price is never hit.
+    • Buy a stock if the stock was down the day before and if the stock is
+    opening 5 percent lower than the close the day before.
+    • Sell either if the stock hits the close the day before or the stock closes
+    without hitting the profit target.
 
     Test: 
     All Nasdaq 100 stocks (including deletions), from January 1, 1999, to June 30, 2003.
 
     Results:
-        All Trades 4,938
-        Average Profit/Loss % 0.75%
+        All Trades 993
+        Average Profit/Loss % 1.97%
         Average Bars Held 1
-        Winning Trades 3,157 (63.93%)
-        Average Profit % 3.40%
+        Winning Trades 605 (60.93%)
+        Average Profit % 6.02%
         Average Bars Held 1
-        Maximum Consecutive Winning Trades 44
-        Losing Trades 1,781 (36.07%)
-        Average Loss % –4.04%
-        Average Bars Held 0.98
-        Maximum Consecutive Losing Trades 15
+        Maximum Consecutive Winning Trades 18
+        Losing Trades 388 (39.07%)
+        Average Loss % –4.47%
+        Average Bars Held 0.97
+        Maximum Consecutive Losing Trades 10
 */
 
 using ScriptSolution;
@@ -40,9 +35,9 @@ using ScriptSolution.Model.Interfaces;
 
 namespace ETSdebugDll
 {
-    public class System2: Script
+    public class System3: Script
     {
-        public ParamOptimization GapPercent = new ParamOptimization(2, 1, 10, 1, "Gap Percent", "The size of the Gap in percent of the stock price.");
+        public ParamOptimization GapPercent = new ParamOptimization(5, 1, 10, 1, "Gap Percent", "The size of the Gap in percent of the stock price.");
         
         #pragma warning disable CS8618
         private IPosition _longPos;
@@ -95,9 +90,9 @@ namespace ETSdebugDll
             DesParamStratetgy.DateRelease = DateTime.Now;
             DesParamStratetgy.DateChange = DateTime.Now;
             DesParamStratetgy.Author = "Rene Limberger";
-            DesParamStratetgy.Description = "Gap Fill Strategy form `Trading like a Hedge Fund` - System #2";
+            DesParamStratetgy.Description = "Gap Fill Strategy form `Trading like a Hedge Fund` - System #3";
             DesParamStratetgy.Change = "";
-            DesParamStratetgy.NameStrategy = "TLHF System2";
+            DesParamStratetgy.NameStrategy = "TLHF System3";
         } 
     }
 }

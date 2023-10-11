@@ -18,7 +18,7 @@ namespace ETSBots
 {
     public class Arbitrage : Script
     {
-        public ParamOptimization Instr = new ParamOptimization(EnumTypeGetIEnumerable.GetSeccodeList, "Второй инструмент");
+        public ParamOptimization Instr = new ParamOptimization(EnumTypeGetIEnumerable.GetSeccodeList, "Second Tool");
         public ParamOptimization Period = new ParamOptimization(20, 1, 50000, 1, "Period", "");
         public ParamOptimization StdvPeriod = new ParamOptimization(20, 1, 50000, 1, "", "");
         public ParamOptimization Instr1_vol = new ParamOptimization(1, 1, 500, 1, "Объём сделки", "Объём первой сделки");
